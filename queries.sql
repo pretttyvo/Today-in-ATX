@@ -11,12 +11,12 @@ CREATE TABLE austin_events (
   start_time VARCHAR(3000),
   PRIMARY KEY (id)
 );
-DROP TABLE austin_events;
+
+
 
 CREATE TABLE austin_events_parking (
   id INT NOT NULL AUTO_INCREMENT,
-  Distance VARCHAR(3000),
-  Location INT,
+  Location VARCHAR(3000),
   Price VARCHAR(3000),
   Venue VARCHAR(3000),
   PRIMARY KEY (id)
@@ -32,3 +32,7 @@ CREATE TABLE austin_events_weather (
   Dates VARCHAR(3000),
   PRIMARY KEY (id)
 );
+
+select * from austin_events;
+select * from austin_events_parking;
+select * from austin_events_weather;
