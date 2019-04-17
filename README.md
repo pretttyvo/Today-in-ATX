@@ -7,16 +7,15 @@
  •	Venue
  •	Start time
  •	Event name
- •	JSON Description 
 
-## Austin Transportation
+## Austin Parking
  Scrape site for parking near event
- •	Use Address from Austin 512  link
- •	Find weather based on date
+ •	Use venues from Austin 512 to link parking
+ •	Find the closest parking near the venue
 
 ## Kxan
 Scrape site for weather
-•	Use datetime from Austin 512  link
+•	Use datetime from Austin 512 link
 •	Find weather based on date
 
 
